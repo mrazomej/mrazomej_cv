@@ -13,7 +13,7 @@
 
     %---------------------------------------------------------
       \cventry
-        {with S. Barnes, N. Belliveau, T. Einav, M. Lewis, and R. Phillips} % collaborators
+        {with S. Barnes, N. Belliveau, T. Einav, G. Chure, M. Lewis, and R. Phillips} % collaborators
         {A Predictive Theory of Allosteric Induction} % Title
         {Cell Systems} % Journal
         {2018} % Date
@@ -21,26 +21,36 @@
           \begin{cvitems} % Description(s) of tasks/responsibilities
             \item {
             \begin{flushleft}
-            Despite lacking a nervous system, single bacterial cells are
-            capable of making decisions given signals from their surroundings.
-            How can individual molecules sense and transmit these signals? The
-            answer comes from one of the crowning scientific achievements of the
-            past century: allostery. Simply stated, allostery is the property of
-            certain macromolecules to exist in multiple conformations with
-            different properties. For example, transcription factors —proteins
-            that control gene expression— can be active (able to bind the DNA)
-            or inactive (unable to bind DNA) depending on the concentration of a
-            signaling molecule.\linebreak
-            In a 2018 paper, I wrote down a theoretical model that predicts the
-            expression level of a gene regulated by an allosteric transcription
-            factor. I then tested the model experimentally, showing that the
+            We wrote down a theoretical model, based on statistical physics,
+            that predicts the expression level of a gene regulated by an
+            allosteric transcription factor. We then tested the model
+            experimentally by measuring the mean gene expression of a series of
+            strains with different biophysical parameters, showing that the
             model was able to predict how changes to the regulation of the gene
-            translate to changes in the cellular response.\linebreak
-            As we strive to turn synthetic biology into a predictive engineering
-            discipline, this work brings us closer to be able to design
-            input-output functions for biological circuits. The better models
-            become, the easier it will be to design biological systems to
-            address modern society problems.
+            translate to changes in the cellular response.
+          \end{flushleft}
+            }
+          \end{cvitems}
+        }
+      \cventry
+        {with G. Chure, N. Belliveau, T. Einav, Z. Kaczmarek, S. Barnes, M. Lewis, and R. Phillips} % collaborators
+        {Predictive shifts in free energy couple mutations to their phenotypic
+        consequences} % Title
+        {PNAS} % Journal
+        {2019} % Date
+        {
+          \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {
+            \begin{flushleft}
+            We expanded our model of gene regulation by allosteric transcription
+            factors to explore changes in biophysical parameters due to changes
+            in the amino-acid sequence of the transcription factor. We mutated
+            both the DNA-binding domain and the inducer-binding domain of the
+            protein, and re-fit the corresponding parameters given new gene
+            expression measurements. We then predicted the double-mutants by
+            adding the corresponding free-energy changes for each of the
+            mutations, and found great agreement with the corresponding
+            experimental data.
           \end{flushleft}
             }
           \end{cvitems}
@@ -54,26 +64,38 @@
           \begin{cvitems} % Description(s) of tasks/responsibilities
             \item {
             \begin{flushleft}
-              Living organisms are constantly sensing intra and extracellular
-              cues and responding accordingly. The quality and precision of such
-              responses can mean the difference between surviving or not certain
-              challenges; therefore, there is a constant selection pressure for
-              cells to gather enough information from any stimulus in order to
-              build an adequate response. In this context, the information that
-              cells can obtain has a precise mathematical definition measured
-              —just as in computers— in bits.\linebreak
-              In a recent publication our goal was to predict how many bits of
-              information can a cell harboring a simple genetic circuit process.
-              To do so, I wrote down a theoretical model to predict the full
-              distribution of gene expression based on the physics of this
-              molecular process. I calibrated our model with previous
-              information in order to perform parameter-free predictions. To
-              test the model, I compared the predictions with experimental
-              single-cell gene expression data finding great agreement.\linebreak
-              This work puts us a step closer towards understanding the
-              intriguing idea for a general principle in biology: information,
-              in its mathematical definition, is a quantity that cells try to
-              maximize over evolutionary time.\linebreak
+              With the objective of predicting the amount of information (in
+              bits) that a simple genetic circuit can gather from the state of
+              the environment, we wrote down a non-equilibrium model for the
+              full distribution of gene expression as a function of an external
+              signal. We calibrated our model with previous information in order
+              to perform parameter-free predictions. To test the model, we
+              compared the predictions with experimental single-cell gene
+              expression data finding great agreement.
+          \end{flushleft}
+            }
+          \end{cvitems}
+        }
+    \end{cventries}
+      \cventry
+        {with M. Morrison and R. Phillips} % collaborators
+        {Reconciling Kinetic and Equilibrium Models of Bacterial Transcription} % Title
+        {PLoS Comp. Bio. (accepted)} % Journal
+        {2020} % Date
+        {
+          \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {
+            \begin{flushleft}
+              We did an exhaustive analysis of the correspondence between
+              equilibrium models of gene regulation --based on statistical
+              mechanics-- and equivalent kinetic models --based on the chemical
+              master equation. We found that both frameworks make
+              indistinguishable predictions at the level of mean gene
+              expression. Only through accounting for higher moments of the
+              distribution we can get mechanistic insights into which scheme
+              better describes the regulation of the gene. We finally used
+              Bayesian inference to show that "the best model" we found can
+              predict single-molecule mRNA counts distributions.
           \end{flushleft}
             }
           \end{cvitems}
